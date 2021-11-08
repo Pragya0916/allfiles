@@ -1,0 +1,88 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+:root{
+    --yellow:#f9ca24;
+}
+
+ *{ 
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+header{
+    position: fixed;
+    top:0; left:0;
+    height: 100%;
+    width: 400px ;
+    background:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+ .picture{
+    border:  #f9ca24 10px solid;
+    border-radius: 20%;
+    height: 280px;
+    width: 250px;
+    object-fit: cover;
+    
+} 
+
+ .name{
+     color: white;
+    font-weight: 900;
+    font-size: 40px;
+} 
+
+.designation{
+  font-size:20px;
+  color: white;  
+}
+
+header ul li a{
+     color: white;
+   display: block;
+   text-align: center;
+    padding: 10px;
+    margin:20px;
+    color:#fff;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+  background-color:#292727;
+  
+}
+ .nav{
+    margin-top: 100px;
+     list-style-type: none;
+ }
+ header ul li a:hover{
+     background-color:#f9ca24;
+     color:#fff;
+ }
+ section{
+    min-height: 100vh;
+    padding:1rem;
+}
+ #menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+} */
